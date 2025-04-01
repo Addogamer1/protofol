@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+<body>
+    <header>
+        <h1 class="logo">Know <span>How</span></h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero-section">
+        <h2 class="typewriter"></h2>
+        <p>Student | Web Development | Music Production</p>
+        <div class="social-links">
+            <a href="https://www.youtube.com/@knowhowkh800/" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.tiktok.com/@knowhow_org" target="_blank"><i class="fab fa-tiktok"></i></a>
+            <a href="https://www.instagram.com/knowhow_org/" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+    </section>
+
+    <script>
+        var typed = new Typed(".typewriter", {
+            strings: ["Welcome to My Portfolio", "Student", "Web Developer", "Music Producer"],
+            typeSpeed: 50,
+            backSpeed: 25,
+            loop: true
+        });
+    </script>
+</body>
+</html>
